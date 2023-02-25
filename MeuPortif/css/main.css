@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #E8E8E8;
+}
+
+.banner{
+    width: 500px;
+    height: 500px;
+    background-image: url(/images/fumdo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
