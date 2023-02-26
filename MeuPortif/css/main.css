@@ -4,15 +4,19 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #E8E8E8;
 }
 
-.banner{
+.banner {
     width: 500px;
     height: 500px;
-    background-image: url(/images/fumdo.png);
+    background-image: url(/MeuPortif/images/fumdo.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+h1{
+    color: white;
 }
