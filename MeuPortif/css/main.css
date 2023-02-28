@@ -88,7 +88,7 @@ h1{
     padding-left: 30px;
     width: 500px;
         animation-name: floating;
-        animation-duration: 5s;
+        animation-duration: 4s;
         animation-iteration-count: infinite;
         animation-timing-function: ease-in-out;
         margin-left: 30px;
@@ -131,4 +131,22 @@ display:flex
     display: flex;
     justify-content: center;
     font-family: 'Lobster Two', cursive;
+}
+
+.banner-contato {
+    width: 2000px;
+    height: 200px;
+    background-image: url(/MeuPortif/images/fumdo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-projetos {
+    width: 2000px;
+    height: 200px;
+    background-image: url(/MeuPortif/images/fumdo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
