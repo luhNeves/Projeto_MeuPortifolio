@@ -26,7 +26,7 @@ h1{
     display:flex;
     justify-content: center;
     padding-top: 100px;
-    font-size: 90px;
+    font-size: 95px;
 }
 .subtexto-banner{
     color:white;
@@ -43,23 +43,61 @@ h1{
 
 .cabecalho{
     padding-top: 70px;
-    justify-content: center;      
+    justify-content: center;  
+    
 }
-.cabecalho a{
 
+.titulos {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+    width: 600px;
+    height: 90px;
+    transition: 0.2s ease-in-out;
+}
+
+.titulos>*{
+    display: flex;
+    justify-content: space-between 20px;
+    border-radius: 30px;
+    border: 3px solid #ffffff;
+    padding: 15px;
+    width: 185px;
+    height: 70px;
+}
+
+.titulos>*:hover {
+    height: 20px;
+    transition: 0.2s ease-in-out;
+}   
+
+.cabecalho a{
+    padding-left: 40px;
+    display: flex;
     text-decoration: none;
     color:white;
     justify-content: center;
-    padding-left: 130px;
     font-family: 'Roboto Mono', monospace;
-    font-size: 20px;
+    font-size: 25px;
     display: inline-block;
+    
 }
 
 .desenho{
-    display: flex;
-    justify-content: center;
     padding-left: 30px;
     width: 500px;
     
+}
+
+.conteudo-banner{
+    justify-content: center;
+    display: flex;
+}
+
+.info{
+padding-top: 60px;
+padding-left: 300px;
+justify-content: left;
+display:flex
+
 }
