@@ -87,8 +87,19 @@ h1{
 .desenho{
     padding-left: 30px;
     width: 500px;
-    
-}
+        animation-name: floating;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        margin-left: 30px;
+        margin-top: 5px;
+    }
+     
+    @keyframes floating {
+        0% { transform: translate(0,  0px); }
+        50%  { transform: translate(0, 15px); }
+        100%   { transform: translate(0, -0px); }   
+    }
 
 .conteudo-banner{
     justify-content: center;
@@ -104,9 +115,20 @@ display:flex
 }
 
 .texto-info{
+    word-wrap: break-word;
+    width: 700px;
     font-size: 20px;
     font-family: 'Roboto Mono', monospace;
+    padding-left: 10px;
     padding-top: 10%;
     display: flex;
     justify-content: center;
+}
+
+.exp-texto{
+    padding-top: 3%;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Lobster Two', cursive;
 }
