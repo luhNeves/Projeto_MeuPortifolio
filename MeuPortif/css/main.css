@@ -1,3 +1,6 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&family=Roboto+Mono&display=swap');
+  
 *{
     margin: 0;
     padding: 0;
@@ -9,8 +12,8 @@ body {
 }
 
 .banner {
-    width: 500px;
-    height: 500px;
+    width: 2000px;
+    height: 520px;
     background-image: url(/MeuPortif/images/fumdo.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,4 +22,17 @@ body {
 
 h1{
     color: white;
+    font-family: 'Lobster Two', cursive;
+    display:flex;
+    justify-content: center;
+    padding-top: 10%;
+    font-size: 90px;
+}
+.subtexto-banner{
+    color:white;
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+
 }
